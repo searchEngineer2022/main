@@ -57,6 +57,8 @@ public class IndexSearch {
         }
         directoryReader.close();
         indexStoreDirectory.close();
-
+        Date endTime = new Date();
+        long timeOfSearch = endTime.getTime()-beginTime.getTime();
+        System.out.println(timeOfSearch+" ms");
     }
 }
