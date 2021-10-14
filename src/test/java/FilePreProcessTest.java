@@ -17,8 +17,9 @@ public class FilePreProcessTest {
     }
 
     @Test
-    public void test1() throws Exception{
-        File testFile = new File("E:\\programExcercise\\java\\searchEngineToy\\src\\test\\java\\宇宙巨校闪级生.txt");
+    public void test1() throws Exception {
+        //输入文件必须为UTF-8格式
+        File testFile = new File("E:\\programExcercise\\java\\searchEngineToy\\src\\test\\java\\三国演义.txt");
 
         String outputDir = "E:\\programExcercise\\java\\searchEngineToy\\src\\test\\java\\preprocessOutputDir\\";
         FilePreprocess filePreprocess = new FilePreprocess();
@@ -33,15 +34,14 @@ public class FilePreProcessTest {
     public void test3() throws Exception {
 
 
-
     }
 
     @Test
-    public void splitToSmallFileTest(){
+    public void splitToSmallFileTest() {
         File testFile = new File("E:\\programExcercise\\java\\searchEngineToy\\src\\test\\java\\宇宙巨校闪级生.txt");
-        String outPathDirectory =".\\src\\test\\java\\preprocessOutputDir\\" ;
+        String outPathDirectory = ".\\src\\test\\java\\preprocessOutputDir\\";
         try {
-            FilePreprocess.splitToSmallFile(testFile,outPathDirectory);
+            FilePreprocess.splitToSmallFile(testFile, outPathDirectory);
         } catch (IOException e) {
             e.printStackTrace();
         }

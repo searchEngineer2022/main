@@ -4,6 +4,9 @@ import org.junit.Test;
 import java.io.IOException;
 
 public class IndexProcessorTest {
+    /**
+     * 创建索引
+     */
     @Test
     public void test1(){
         IndexProcessor indexProcessor = new IndexProcessor(".\\src\\test\\java\\preprocessOutputDir");

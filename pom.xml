@@ -43,12 +43,6 @@
             <artifactId>lucene-analyzers-common</artifactId>
             <version>8.10.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.huaban/jieba-analysis -->
-        <dependency>
-            <groupId>com.huaban</groupId>
-            <artifactId>jieba-analysis</artifactId>
-            <version>1.0.2</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-queryparser -->
         <dependency>
             <groupId>org.apache.lucene</groupId>

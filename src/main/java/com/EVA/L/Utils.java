@@ -28,6 +28,6 @@ public class Utils {
             });
         }
         Files.createDirectory(path);
-        System.out.println(outputDir+"has been created!");
+        System.out.println(outputDir+" has been created!");
     }
 }
